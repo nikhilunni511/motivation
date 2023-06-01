@@ -1,170 +1,176 @@
 /* Global Styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Courgette', sans-serif;
     margin: 0;
     padding: 0;
     color: #333333;
     background: #FFFFFF;
-  }
-  
-  h1, h2 {
+}
+
+h1, h2, h3 {
     text-align: center;
     margin: 20px 0;
-  }
-  
-  ul {
+    font-family: 'Courgette', serif;
+}
+
+p {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+
+ul {
     list-style-type: none;
     padding: 0;
-  }
-  
-  a {
+    text-align: center;
+}
+
+a {
     color: #333333;
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  
-  /* Header Section */
-  header {
+}
+
+/* Header Section */
+header {
     padding: 40px 20px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     color: #000000;
-  }
-  
-  /* Random Quote Section */
-  #random-quote {
+}
+
+/* Random Quote Section */
+#random-quote {
     text-align: center;
     padding: 40px 20px;
-  }
-  
-  #quote-container {
+}
+
+#quote-container {
     background: linear-gradient(45deg, #FFFFFF, #E0E0E0);
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
     max-width: 500px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  #quote {
+}
+
+#quote {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-  }
-  
-  #author {
+}
+
+#author {
     font-size: 18px;
     text-align: right;
-  }
-  
-  /* Quote Categories Section */
-  #quote-categories {
+}
+
+/* Quote Categories Section */
+#quote-categories {
     background: linear-gradient(45deg, #FFFFFF, #E0E0E0);
     padding: 40px 20px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  #quote-categories ul {
+}
+
+#quote-categories ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-  }
-  
-  #quote-categories li {
+}
+
+#quote-categories li {
     font-size: 18px;
-  }
-  
-  /* Quote Sections */
-  section {
+}
+
+/* Quote Sections */
+section {
     padding: 40px 20px;
-  }
-  
-  section h2 {
+}
+
+section h2 {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  section ul {
+}
+
+section ul {
     padding-left: 40px;
-  }
-  
-  section li {
+}
+
+section li {
     margin-bottom: 10px;
-  }
-  
-  /* Quote Submission Section */
-  #quote-submission {
+}
+
+/* Quote Submission Section */
+#quote-submission {
     background: linear-gradient(45deg, #FFFFFF, #E0E0E0);
     padding: 40px 20px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  form {
+}
+
+form {
     max-width: 500px;
     margin: 0 auto;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 10px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #333333;
     border-radius: 5px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
     background-color: #F5F5F5;
-  }
-  
-  input[type="text"]:focus,
-  input[type="email"]:focus,
-  textarea:focus {
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
     outline: none;
     border-color: #FF69B4;
     box-shadow: 0px 0px 5px rgba(255, 105, 180, 0.5);
-  }
-  
-  button[type="submit"] {
+}
+
+button[type="submit"] {
     background-color: #333333;
     color: #FFFFFF;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  button[type="submit"]:hover {
+}
+
+button[type="submit"]:hover {
     background-color: #555555;
-  }
-  
-  /* Footer Section */
-  footer {
+}
+
+/* Footer Section */
+footer {
     background: linear-gradient(45deg, #333333, #555555);
     color: #FFFFFF;
     text-align: center;
     padding: 20px;
-  }
-  
-  footer p {
+}
+
+footer p {
     margin: 10px 0;
-  }
-  
-  footer ul {
+}
+
+footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-  }
-  
+}
