@@ -40,6 +40,42 @@ header {
     color: #000000;
 }
 
+@keyframes blinking {
+    0% {
+      color: red;
+    }
+    14% {
+      color: orange;
+    }
+    28% {
+      color: yellow;
+    }
+    42% {
+      color: green;
+    }
+    57% {
+      color: blue;
+    }
+    71% {
+      color: indigo;
+    }
+    85% {
+      color: violet;
+    }
+    100% {
+      color: red;
+    }
+  }
+  
+  #title {
+    animation: blinking 2s infinite;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+
 /* Random Quote Section */
 #random-quote {
     text-align: center;
@@ -101,6 +137,14 @@ section ul {
 section li {
     margin-bottom: 10px;
 }
+
+.quote-item {
+    transition: transform 0.3s ease;
+  }
+  
+  .quote-item:hover {
+    transform: scale(1.05);
+  }
 
 /* Quote Submission Section */
 #quote-submission {

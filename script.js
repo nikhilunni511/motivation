@@ -63,4 +63,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     const randomQuoteButton = document.getElementById('random-quote-button');
     randomQuoteButton.addEventListener('click', getRandomQuote);
+    
+    
 });
